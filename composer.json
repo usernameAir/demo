@@ -1,0 +1,10 @@
+{
+    "name": "air/demo",
+    "description": "The demo od composer",
+    "type": "Project",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,133 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cd0e0477fda25651a38c59078d59b870",
+    "content-hash": "397637aae1328728dcdbb09f371f2a3d",
+    "packages": [
+        {
+            "name": "houdunwang/framework",
+            "version": "v3.0.32",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houdunwang/framework.git",
+                "reference": "3504ef566af82839dfb2c7576ac7337c2516a867"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/houdunwang/framework/3504ef566af82839dfb2c7576ac7337c2516a867.zip",
+                "reference": "3504ef566af82839dfb2c7576ac7337c2516a867",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "files": [
+                    "src/kernel/helper.php"
+                ],
+                "psr-4": {
+                    "hdphp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "houdunwang",
+                    "email": "2300071698@qq.com"
+                }
+            ],
+            "description": "Hdphp Framework (Kernel)",
+            "time": "2016-12-13 14:36:48"
+        },
+        {
+            "name": "houdunwang/hdphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houdunwang/hdphp.git",
+                "reference": "77fa6677165e02a7bd78915337664249158b61e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/houdunwang/hdphp/77fa6677165e02a7bd78915337664249158b61e6.zip",
+                "reference": "77fa6677165e02a7bd78915337664249158b61e6",
+                "shasum": ""
+            },
+            "require": {
+                "houdunwang/framework": "3.0.*",
+                "houdunwang/wechat": "1.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "app\\": "app",
+                    "system\\": "system"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "向军",
+                    "email": "2300071698@qq.com"
+                }
+            ],
+            "description": "hdphp framework",
+            "homepage": "http://www.hdphp.com/",
+            "keywords": [
+                "framework",
+                "hdphp",
+                "houdunwang"
+            ],
+            "time": "2016-12-13 15:30:10"
+        },
+        {
+            "name": "houdunwang/wechat",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houdunwang/wechat.git",
+                "reference": "bf4d6ee9fef2dc0e0677ed703c19ffe132c0dac0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/houdunwang/wechat/bf4d6ee9fef2dc0e0677ed703c19ffe132c0dac0.zip",
+                "reference": "bf4d6ee9fef2dc0e0677ed703c19ffe132c0dac0",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "wechat\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "houdunwang",
+                    "email": "2300071698@qq.com"
+                }
+            ],
+            "description": "wechat framework",
+            "time": "2016-11-13 16:08:39"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
